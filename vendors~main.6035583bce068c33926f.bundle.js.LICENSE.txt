@@ -143,6 +143,8 @@ object-assign
  * code.
  */
 
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
 /**
  * Prism: Lightweight, robust, elegant syntax highlighting
  *
