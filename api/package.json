@@ -12,7 +12,7 @@
     "knex-migrate-rollback": "knex migrate:rollback",
     "knex-migrate-down": "knex migrate:down",
     "mongoose-make-migrate": "migrate --config mongo-migrate.js create",
-    "mongoose-migrate": "migrate --config mongo-migrate.js up",
+    "mongoose-migrate": "migrate --config mongo-migrate.js --autosync up",
     "mongoose-migrate-down": "migrate --config mongo-migrate.js down",
     "migrate": "npm run knex-migrate && npm run mongoose-migrate",
     "seed": "knex seed:run --specific=main.js",
