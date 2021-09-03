@@ -10,7 +10,7 @@ services:
     ports:
       - '55432:5432'
 
-  mongodb:
+  mongo:
     image: mongo:latest
     environment:
       - PUID=1000
